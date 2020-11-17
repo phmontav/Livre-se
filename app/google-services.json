@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "244757476871",
+    "firebase_url": "https://livre-se-mvp1.firebaseio.com",
+    "project_id": "livre-se-mvp1",
+    "storage_bucket": "livre-se-mvp1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244757476871:android:dd0b0e995d10e46ad31ca2",
+        "android_client_info": {
+          "package_name": "com.example.mvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244757476871-l0pvhhov37hapid5mtipcc85qgvqc4u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mvp",
+            "certificate_hash": "f3d049c91a3717ac2a402ba85783428b7e485c98"
+          }
+        },
+        {
+          "client_id": "244757476871-v39vtuo293l2flj8h2ljlpofu8eci450.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-CzykFHk6d0w6pNnGk8vu4lNCdMR5X-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244757476871-v39vtuo293l2flj8h2ljlpofu8eci450.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

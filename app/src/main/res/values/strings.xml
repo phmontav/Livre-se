@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Livre-se!</string>
+    <string name="title_activity_meus_anuncios">Meus Livros</string>
+
+    <string-array name="bairros">
+        <item>Botafogo</item>
+        <item>Ipanema</item>
+        <item>Copacabana</item>
+        <item>Leblon</item>
+        <item>Flamengo</item>
+        <item>Leme</item>
+        <item>Glória</item>
+        <item>Urca</item>
+        <item>Catete</item>
+        <item>Olaria</item>
+        <item>Barra da Tijuca</item>
+        <item>Tijuca</item>
+
+    </string-array>
+
+    <string-array name="categorias">
+        <item>Aventura</item>
+        <item>Romance</item>
+        <item>Ficção cientifíca</item>
+        <item>Policial</item>
+        <item>Fantasia</item>
+        <item>Drama</item>
+        <item>Auto-ajuda</item>
+        <item>Didático</item>
+        <item>Culinária</item>
+    </string-array>
+
+</resources>

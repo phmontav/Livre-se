@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#71b4f1</color>
+    <color name="colorPrimaryDark">#5b93d0</color>
+    <color name="lightblue">#68aaee</color>
+    <color name="bluecard">#659dd6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name= "branco">#FFFFFF</color>
+    <color name="amarelo_fundo">#fff5d0</color>
+</resources>

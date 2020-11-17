@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".activity.AnunciosActivity"
+    android:background="@color/amarelo_fundo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/amarelo_fundo"
+        >
+
+        <Button
+            android:id="@+id/buttonRegiao"
+
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="filtrarPorEstado"
+            android:text="Região"
+            android:background="@color/colorPrimary"
+            android:textColor= "@color/branco"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="|" />
+
+        <Button
+            android:id="@+id/buttonCategoria"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="filtrarPorCategoria"
+            android:text="Gênero"
+            android:background="@color/colorPrimary"
+            android:textColor= "@color/branco"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerAnunciosPublicos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/fab2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_margin="@dimen/fab_margin"-->
+    <!--        app:backgroundTint="@color/colorAccent"-->
+    <!--        app:srcCompat="@drawable/ic_baseline_filter_list_24" />-->
+
+</LinearLayout>
